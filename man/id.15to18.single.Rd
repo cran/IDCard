@@ -1,14 +1,14 @@
-\name{id.15to18}
-\alias{id.15to18}
+\name{id.15to18.single}
+\alias{id.15to18.single}
 \title{Update Chinese ID Card Number to Eighteen Digits}
 \usage{
-id.15to18(id.15)
+id.15to18.single(id.15)
 }
 \description{
 The digits of the old version (before 2000 year) of 'Chinese ID Card Number' is 15, this package aims to update to the current version of 18 digits.
 }
 \arguments{
-  \item{id.15}{vector of numeric or character, the old version of Chinese ID Card Number}
+  \item{id.15}{numeric or character, the old version of Chinese ID Card Number}
 }
 \value{
   \item{id.18}{character, the new version of Chinese ID Card Number}
@@ -26,12 +26,11 @@ Reference:
 
 Update:
 
-verson 0.2.0: the type of the input can be a single element and a vector.
+verson 0.2.0: this function of id.15to18.single() is used for the input of a single element.
 
 More advanced performance is coming!
 
 }
 \examples{
-id.15to18(id.15="441900890101221")
-id.15to18(id.15=rep("441900890101221",2))
+id.15to18.single(id.15="441900890101221")
 }

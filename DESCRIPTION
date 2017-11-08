@@ -1,7 +1,7 @@
 Package: IDCard
 Type: Package
 Title: Update Chinese ID Card Number to Eighteen Digits
-Version: 0.1.0
+Version: 0.2.0
 Author: Zhicheng Du, Yuantao Hao
 Maintainer: Zhicheng Du<dgdzc@hotmail.com>
 Description: The digits of the old version (before 2000 year) of 'Chinese ID Card Number' is 15, this package aims to update to the current version of 18 digits.
@@ -9,6 +9,6 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: true
 NeedsCompilation: no
-Packaged: 2017-09-08 06:23:24 UTC; dgdzc
+Packaged: 2017-09-27 02:01:10 UTC; dgdzc
 Repository: CRAN
-Date/Publication: 2017-09-08 08:49:53 UTC
+Date/Publication: 2017-11-08 16:59:11 UTC
