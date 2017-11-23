@@ -26,7 +26,9 @@ Reference:
 
 Update:
 
-verson 0.2.0: the type of the input can be a single element and a vector.
+version 0.2.0: the input of id.15to18() can be a single element and a vector.
+
+version 0.3.0: is.id() is added.
 
 More advanced performance is coming!
 
